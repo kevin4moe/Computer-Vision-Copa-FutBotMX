@@ -1,0 +1,29 @@
+{
+  "source_video_path": "/content/futbot1 Part 2.mp4",
+  "frames_total": 1277,
+  "frames_processed": 1277,
+  "window_size": 16,
+  "window_stride": 16,
+  "prompts": [
+    {
+      "object_type": "robot",
+      "text_prompt": "robot",
+      "output_prob_thresh": 0.55
+    },
+    {
+      "object_type": "soccer_ball",
+      "text_prompt": "small orange ball",
+      "output_prob_thresh": 0.25
+    }
+  ],
+  "centroid_rows": 2828,
+  "global_objects": 12,
+  "robot_rows": 2292,
+  "ball_rows": 536,
+  "passes_detected": 0,
+  "collisions_detected": 40,
+  "events_total": 40,
+  "centroids_csv": "/content/full_video_analysis_outputs/full_video_tracking_centroids.csv",
+  "events_csv": "/content/full_video_analysis_outputs/full_video_all_events.csv",
+  "overlay_video": "/content/full_video_analysis_outputs/full_video_robot_ball_overlay.mp4"
+}
