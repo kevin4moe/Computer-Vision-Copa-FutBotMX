@@ -371,45 +371,6 @@ consolida eventos como:
 
 > Nota: los valores concretos dependen del video analizado y de los umbrales usados. Para reportar resultados finales, usar los valores generados en `full_video_analysis_summary.json`.
 
-### 5.4 Capturas de pantalla y GIFs
-
-Guardar los recursos visuales en:
-
-```text
-assets/screenshots/
-assets/gifs/
-```
-
-Recursos sugeridos:
-
-```text
-assets/screenshots/01_sam3_segmentation_robot_ball.png
-assets/screenshots/02_centroid_tracking.png
-assets/screenshots/03_possession_ball_speed.png
-assets/screenshots/04_event_detection.png
-assets/gifs/full_video_robot_ball_overlay.gif
-```
-
-Ejemplo para extraer una captura desde el video overlay:
-
-```bash
-ffmpeg -ss 00:00:05 -i outputs/full_video_robot_ball_overlay.mp4 -frames:v 1 assets/screenshots/01_sam3_segmentation_robot_ball.png
-```
-
-Ejemplo para generar un GIF:
-
-```bash
-ffmpeg -i outputs/full_video_robot_ball_overlay.mp4 -vf "fps=8,scale=720:-1:flags=lanczos" assets/gifs/full_video_robot_ball_overlay.gif
-```
-
-### 5.5 Vista previa del resultado
-
-Agregar aquí la captura o GIF final:
-
-```markdown
-![Tracking de robots y balón](assets/gifs/full_video_robot_ball_overlay.gif)
-```
-
 ---
 
 ## 📱 6. Reel de Instagram
