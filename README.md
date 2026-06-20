@@ -379,15 +379,7 @@ El reel debe estar publicado con acceso a todo público.
 
 **Enlace público al reel:**
 
-```text
-PENDIENTE: reemplazar con el enlace público del reel de Instagram.
-```
-
-Formato esperado:
-
-```markdown
-https://www.instagram.com/reel/REEMPLAZAR_CON_ID_DEL_REEL/
-```
+https://www.instagram.com/reel/DZy2QyPNYzq/?igsh=MXhheDZlamRmdmtqaA==
 
 ---
 
